@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Parsing_CSV_File/1.0.0": {
+        "runtime": {
+          "Parsing_CSV_File.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Parsing_CSV_File/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
