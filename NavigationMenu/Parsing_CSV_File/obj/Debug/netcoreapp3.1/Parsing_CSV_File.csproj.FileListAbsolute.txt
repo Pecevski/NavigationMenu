@@ -11,3 +11,16 @@ C:\Users\Ilija\source\repos\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp
 C:\Users\Ilija\source\repos\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.dll
 C:\Users\Ilija\source\repos\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.pdb
 C:\Users\Ilija\source\repos\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.genruntimeconfig.cache
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\bin\Debug\netcoreapp3.1\Parsing_CSV_File.exe
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\bin\Debug\netcoreapp3.1\Parsing_CSV_File.deps.json
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\bin\Debug\netcoreapp3.1\Parsing_CSV_File.runtimeconfig.json
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\bin\Debug\netcoreapp3.1\Parsing_CSV_File.runtimeconfig.dev.json
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\bin\Debug\netcoreapp3.1\Parsing_CSV_File.dll
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\bin\Debug\netcoreapp3.1\Parsing_CSV_File.pdb
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.csprojAssemblyReference.cache
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.AssemblyInfoInputs.cache
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.AssemblyInfo.cs
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.csproj.CoreCompileInputs.cache
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.dll
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.pdb
+C:\Users\Ilija\Desktop\NavigationMenu\NavigationMenu\Parsing_CSV_File\obj\Debug\netcoreapp3.1\Parsing_CSV_File.genruntimeconfig.cache

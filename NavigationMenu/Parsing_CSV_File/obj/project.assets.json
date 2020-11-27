@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ilija\\source\\repos\\NavigationMenu\\Parsing_CSV_File\\Parsing_CSV_File.csproj",
+      "projectUniqueName": "C:\\Users\\Ilija\\Desktop\\NavigationMenu\\NavigationMenu\\Parsing_CSV_File\\Parsing_CSV_File.csproj",
       "projectName": "Parsing_CSV_File",
-      "projectPath": "C:\\Users\\Ilija\\source\\repos\\NavigationMenu\\Parsing_CSV_File\\Parsing_CSV_File.csproj",
+      "projectPath": "C:\\Users\\Ilija\\Desktop\\NavigationMenu\\NavigationMenu\\Parsing_CSV_File\\Parsing_CSV_File.csproj",
       "packagesPath": "C:\\Users\\Ilija\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ilija\\source\\repos\\NavigationMenu\\Parsing_CSV_File\\obj\\",
+      "outputPath": "C:\\Users\\Ilija\\Desktop\\NavigationMenu\\NavigationMenu\\Parsing_CSV_File\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
