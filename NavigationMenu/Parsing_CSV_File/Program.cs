@@ -14,10 +14,21 @@ namespace Parsing_CSV_File
             public int? parentID { get; set; }
             public bool isHidden { get; set; }
             public string linkURL { get; set; }
+
+            public MenuItem(int Id, string menuName, int? parentId, bool isHidden, string linkUrl)
+            {
+                this.Id = Id;
+                this.menuName = menuName;
+                parentID = parentId;
+                this.isHidden = isHidden;
+                linkURL = linkUrl;
+
+            }
         }
         static void Main(string[] args)
         {
-            using (StreamReader sr = new StreamReader(@"..\..\..\..\Navigation.csv"))
+            var path = @"..\..\..\..\Navigation.csv";
+            using (StreamReader sr = new StreamReader(path))
             {
                 List<MenuItem> menuItems = new List<MenuItem>();
                 int index = 0;
@@ -27,19 +38,19 @@ namespace Parsing_CSV_File
                     if (index != 0)
                     {
                         var item = csvMenu.Split(';');
-                        var id = Convert.ToInt32(item[0]);
+                        var id = int.Parse(item[0]);
                         var menuName = item[1];
                         var parentID = ConvertToNull(item[2]);
                         var isHidden = Convert.ToBoolean(item[3]);
                         var linkURL = item[4];
-                        var menuItem = new MenuItem()
-                        {
-                            Id = id,
-                            menuName = menuName,
-                            parentID = parentID,
-                            isHidden = isHidden,
-                            linkURL = linkURL
-                        };
+                        var menuItem = new MenuItem(id, menuName, parentID, isHidden, linkURL);
+                        //{
+                        //    Id = id,
+                        //    menuName = menuName,
+                        //    parentID = parentID,
+                        //    isHidden = isHidden,
+                        //    linkURL = linkURL
+                        //};
                         menuItems.Add(menuItem);
                         Console.WriteLine(csvMenu);                        
                     }
@@ -71,15 +82,15 @@ namespace Parsing_CSV_File
         }
         public static List<MenuItem> GetChildrenByParentId(List<MenuItem> menuItems, int? parentId)
         {
-            var parentList = new List<MenuItem>();
-            foreach (var item in menuItems)
-            {               
-                if (item.parentID == parentId)
-                {
-                    parentList.Add(item);
-                }
-            }
-            return parentList.OrderBy(n => n.menuName).ToList();
+            //var parentList = new List<MenuItem>();
+            //foreach (var item in menuItems)
+            //{               
+            //    if (item.parentID == parentId)
+            //    {
+            //        parentList.Add(item);
+            //    }
+            //}
+            return menuItems.Where(item => item.parentID == parentId).OrderBy(n => n.menuName).ToList(); 
         }
         public static void NavigationMenu(List<MenuItem> menuItems, int? parentId = null , int level = 0)
         {
@@ -89,7 +100,7 @@ namespace Parsing_CSV_File
                 foreach (MenuItem item in tempList)
                 {
                     if (item.isHidden == true) continue;
-                    string menuItemOutput = GetDots(level) + " " + item.menuName;
+                    string menuItemOutput = $"{GetDots(level)}  {item.menuName}";
                     Console.WriteLine(menuItemOutput);
                     NavigationMenu(menuItems, item.Id, level +1);                   
                 }
